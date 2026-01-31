@@ -27,13 +27,12 @@
             "Type": "ChangeState",
             "Changes": {
               "default": "Emerald",
-              "Empty": "Emerald",
-              "Emerald": "Zephyr",
+              "Emerald": "Sapphire",
               "Zephyr": "Sapphire",
               "Sapphire": "Topaz",
               "Topaz": "Voidstone",
               "Voidstone": "Diamond",
-              "Diamond": "Empty"
+              "Diamond": "default"
             }
           }
         ]
@@ -42,13 +41,25 @@
 
     "State": {
       "Definitions": {
-        "Empty": {
+        "default": {
           "CustomModel": "Blocks/tuningfork/empty.blockymodel",
           "CustomModelTexture": [{"Texture": "Blocks/tuningfork/empty.png" }]
         },
         "Emerald": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/emerald.png" }]
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/emerald.png" }],
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "ChangeState",
+                  "Changes": {
+                    "Emerald": "Zephyr"
+                  }
+                }
+              ]
+            }
+          }
         },
         "Zephyr": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -89,7 +100,9 @@
           "FaceType": "Full"
         }
       ]
-    }
+    },
+
+    "RotationYawPlacementOffset": "Ninety"
   },
 
   "ItemSoundSetId": "ISS_Blocks_Wood"
