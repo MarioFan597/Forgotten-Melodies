@@ -8,88 +8,93 @@
   "Categories": [
     "Furniture.Benches"
   ],
-
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-
     "CustomModel": "Blocks/tuningfork/empty.blockymodel",
     "CustomModelTexture": [
-      { "Texture": "Blocks/tuningfork/empty.png", "Weight": 1 }
-    ],
-
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "ChangeState",
-            "Changes": {
-              "default": "Emerald",
-              "Emerald": "Sapphire",
-              "Zephyr": "Sapphire",
-              "Sapphire": "Topaz",
-              "Topaz": "Voidstone",
-              "Voidstone": "Diamond",
-              "Diamond": "default"
-            }
-          }
-        ]
+      {
+        "Texture": "Blocks/tuningfork/empty.png",
+        "Weight": 1
       }
-    },
-
+    ],
     "State": {
       "Definitions": {
         "default": {
           "CustomModel": "Blocks/tuningfork/empty.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/empty.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/empty.png"
+            }
+          ]
         },
         "Emerald": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/emerald.png" }],
-          "Interactions": {
-            "Use": {
-              "Interactions": [
-                {
-                  "Type": "ChangeState",
-                  "Changes": {
-                    "Emerald": "Zephyr"
-                  }
-                }
-              ]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/emerald.png"
             }
-          }
+          ]
         },
         "Zephyr": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/zephyr.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/zephyr.png"
+            }
+          ]
         },
         "Sapphire": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/sapphire.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/sapphire.png"
+            }
+          ]
         },
         "Topaz": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/topaz.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/topaz.png"
+            }
+          ]
         },
         "Voidstone": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/voidstone.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/voidstone.png"
+            }
+          ]
         },
         "Diamond": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
-          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/diamond.png" }]
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/diamond.png"
+            }
+          ]
+        },
+        "Ruby": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/tuningfork/ruby.png"
+            }
+          ]
         }
       }
     },
-
     "HitboxType": "TuningFork",
     "VariantRotation": "NESW",
-
     "Flags": {},
     "Gathering": {
-      "Breaking": { "GatherType": "Benches" }
+      "Breaking": {
+        "GatherType": "Benches"
+      }
     },
     "BlockParticleSetId": "Metal",
     "ParticleColor": "#aeae8c",
@@ -101,9 +106,10 @@
         }
       ]
     },
-
-    "RotationYawPlacementOffset": "Ninety"
+    "RotationYawPlacementOffset": "Ninety",
+    "Interactions": {
+      "Use": "TuningForkCrystalInteract"
+    }
   },
-
   "ItemSoundSetId": "ISS_Blocks_Wood"
 }

@@ -1,0 +1,246 @@
+{
+  "Interactions": [
+    {
+      "Type": "WieldedItemCondition",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "default"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Blue",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Sapphire"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Sapphire"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Cyan",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Zephyr"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Zephyr"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Green",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Emerald"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Emerald"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Purple",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "ChangeTo": "Voidstone",
+              "UpdateBlockState": true
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Voidstone"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Red",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Ruby"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Ruby"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_White",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Diamond"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Diamond"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "WieldedItemCondition",
+      "ItemId": "Ingredient_Crystal_Yellow",
+      "Next": {
+        "Type": "BlockCondition",
+        "Failed": {
+          "Type": "Serial",
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemQuantity": -1
+            },
+            {
+              "Parent": "TuningForkEjectCrystal"
+            },
+            {
+              "Type": "ForceState",
+              "UpdateBlockState": true,
+              "ChangeTo": "Topaz"
+            }
+          ]
+        },
+        "Matchers": [
+          {
+            "Block": {
+              "State": "Topaz"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
