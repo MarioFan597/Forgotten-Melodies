@@ -20,6 +20,7 @@
         "Weight": 1
       }
     ],
+    "InteractionHint": "Slot Crystal From Hand",
     "State": {
       "Definitions": {
         "default": {
@@ -36,7 +37,8 @@
             {
               "Texture": "Blocks/tuningfork/emerald.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Zephyr": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -44,7 +46,8 @@
             {
               "Texture": "Blocks/tuningfork/zephyr.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Sapphire": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -52,7 +55,8 @@
             {
               "Texture": "Blocks/tuningfork/sapphire.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Topaz": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -60,7 +64,8 @@
             {
               "Texture": "Blocks/tuningfork/topaz.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Voidstone": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -68,7 +73,8 @@
             {
               "Texture": "Blocks/tuningfork/voidstone.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Diamond": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -76,7 +82,8 @@
             {
               "Texture": "Blocks/tuningfork/diamond.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         },
         "Ruby": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -84,7 +91,8 @@
             {
               "Texture": "Blocks/tuningfork/ruby.png"
             }
-          ]
+          ],
+          "InteractionHint": "Replace Crystal From Hand"
         }
       }
     },
