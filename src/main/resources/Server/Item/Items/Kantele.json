@@ -1,0 +1,104 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Kantele.name",
+    "Description": "items.Kantele.description"
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "ItemLevel": 16,
+  "Recipe": {
+    "TimeSeconds": 2,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Instrument"
+        ],
+        "Id": "Melody_Workbench"
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 5
+      }
+    ]
+  },
+  "Model": "Items/Instruments/Kantele.blockymodel",
+  "Texture": "Items/Instruments/Kantele.png",
+  "Quality": "Common",
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1.0,
+        "GatherType": "SoftBlocks"
+      }
+    ],
+    "Speed": 1.0
+  },
+  "Interactions": {
+    "Primary": {
+      "Cooldown": {
+        "Id": "Shearing",
+        "Cooldown": 0.2
+      },
+      "Interactions": [
+        {
+          "Type": "ContextualUseNPC",
+          "Context": "Shear",
+          "Effects": {
+            "ItemAnimationId": "Shear",
+            "WaitForAnimationToFinish": true,
+            "WorldSoundEventId": "SFX_Shears_Activate"
+          },
+          "Failed": "Shears_Attack"
+        }
+      ]
+    },
+    "Secondary": {
+      "Cooldown": {
+        "Id": "Shearing",
+        "Cooldown": 0.2
+      },
+      "Interactions": [
+        {
+          "Type": "ContextualUseNPC",
+          "Context": "Shear",
+          "Effects": {
+            "ItemAnimationId": "Shear",
+            "WaitForAnimationToFinish": true,
+            "WorldSoundEventId": "SFX_Shears_Activate"
+          },
+          "Failed": "Shears_Attack"
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      44,
+      207,
+      1
+    ],
+    "Translation": [
+      10,
+      -12
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Kantele.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "PlayerAnimationsId": "Shears",
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "Scale": 1
+}

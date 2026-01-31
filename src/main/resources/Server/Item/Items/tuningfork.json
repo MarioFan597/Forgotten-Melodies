@@ -20,6 +20,26 @@
       { "Texture": "Blocks/tuningfork/empty.png", "Weight": 1 }
     ],
 
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Emerald",
+              "Empty": "Emerald",
+              "Emerald": "Zephyr",
+              "Zephyr": "Sapphire",
+              "Sapphire": "Topaz",
+              "Topaz": "Voidstone",
+              "Voidstone": "Diamond",
+              "Diamond": "Empty"
+            }
+          }
+        ]
+      }
+    },
+
     "State": {
       "Definitions": {
         "Empty": {
