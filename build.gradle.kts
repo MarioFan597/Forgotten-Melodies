@@ -21,8 +21,6 @@ tasks.test {
 }
 
 tasks.jar {
-    destinationDirectory.set(file("E:/Programming/Modding/Hytale/Requirements/latest-release/Server/mods"))
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-
     from("src/main/resources")
 }
