@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "items.tuningfork.name",
+    "Description": "items.tuningfork.description"
+  },
+  "Id": "Tuning_Fork",
+  "MaxStack": 1,
+  "Categories": [
+    "Furniture.Benches"
+  ],
+
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+
+    "CustomModel": "Blocks/tuningfork/empty.blockymodel",
+    "CustomModelTexture": [
+      { "Texture": "Blocks/tuningfork/empty.png", "Weight": 1 }
+    ],
+
+    "State": {
+      "Definitions": {
+        "Empty": {
+          "CustomModel": "Blocks/tuningfork/empty.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/empty.png" }]
+        },
+        "Emerald": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/emerald.png" }]
+        },
+        "Zephyr": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/zephyr.png" }]
+        },
+        "Sapphire": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/sapphire.png" }]
+        },
+        "Topaz": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/topaz.png" }]
+        },
+        "Voidstone": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/voidstone.png" }]
+        },
+        "Diamond": {
+          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModelTexture": [{"Texture": "Blocks/tuningfork/diamond.png" }]
+        }
+      }
+    },
+
+    "HitboxType": "TuningFork",
+    "VariantRotation": "NESW",
+
+    "Flags": {},
+    "Gathering": {
+      "Breaking": { "GatherType": "Benches" }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#aeae8c",
+    "BlockSoundSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}
