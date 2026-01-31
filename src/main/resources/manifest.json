@@ -1,0 +1,14 @@
+{
+  "Group": "com.melodyjam",
+  "Name": "Forgotten Melodies",
+  "Version": "1.2.2",
+  "Description": "A mod mad for the first ever Hytale Mod Jam with the theme of \"Echos of the Machine\"",
+  "Authors": [
+    {
+      "Name": "MelodyJamTeam"
+    }
+  ],
+  "OptionalDependencies": {},
+  "Main": "com.melodyjam.plugin.ForgottenMelodiesPlugin",
+  "IncludesAssetPack": true
+}
