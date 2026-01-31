@@ -1,0 +1,18 @@
+{
+  "InstanceId": "Portals_Resonant_Ruin",
+  "Description": {
+    "DisplayName": "server.portals.resonant_ruin",
+    "FlavorText": "server.portals.resonant_ruin.description",
+    "ThemeColor": "#23970cec",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "server.portals.resonant_ruin.tip1"
+    ]
+  },
+  "PlayerSpawn": {
+    "Y": 110,
+    "ScanHeight": 16,
+    "MinRadius": 60,
+    "MaxRadius": 60
+  }
+}

@@ -1,0 +1,14 @@
+
+
+# === portals ===
+
+items.PortalKey_Resonant_Ruin.name=Fragment: Orbis - Resonant Ruin
+items.PortalKey_Resonant_Ruin.description=<msg key="server.items.PortalKey.description"/>\n\
+\n\
+<i>A temple that once flourished in melodies now stand silent, forgotten and in ruin.</i>
+
+portals.resonant_ruin=Resonant Ruin
+portals.resonant_ruin.description=A temple that once flourished in melodies now stand silent, forgotten and in ruin.\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+portals.resonant_ruin.tip1=<color is="#05c09a">A musical instrument is required to traverse.</color>
