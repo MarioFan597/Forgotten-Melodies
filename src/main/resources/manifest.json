@@ -8,6 +8,10 @@
       "Name": "MelodyJamTeam"
     }
   ],
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Hytale:BlockModule": "*"
+  },
   "OptionalDependencies": {},
   "Main": "com.melodyjam.plugin.ForgottenMelodiesPlugin",
   "IncludesAssetPack": true

@@ -60,8 +60,6 @@ public class ForceStateInteraction extends SimpleBlockInteraction {
             return;
         }
 
-        LOGGER.atInfo().log("Targeting block %d, %d, %d", targetBlock.x, targetBlock.y, targetBlock.z);
-
         String targetVal = this.changeTo;
         if (targetVal == null) {
             targetVal = "default";
@@ -69,19 +67,12 @@ public class ForceStateInteraction extends SimpleBlockInteraction {
 
         BlockType current = chunk.getBlockType(targetBlock);
 
-        if (current == null) {
-            LOGGER.atInfo().log("null block type");
-        } else {
-            LOGGER.atInfo().log("Block id %s", current.getId());
-        }
-
         String currentState = current.getStateForBlock(current);
         if (currentState == null) {
             currentState = "default";
         }
 
         if (currentState.equals(targetVal)) {
-            LOGGER.atInfo().log("QUITTING EARLY - already at state %s", currentState);
             return;
         }
 

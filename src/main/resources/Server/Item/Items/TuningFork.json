@@ -3,7 +3,6 @@
     "Name": "items.tuningfork.name",
     "Description": "items.tuningfork.description"
   },
-  "Id": "Tuning_Fork",
   "MaxStack": 1,
   "Categories": [
     "Furniture.Benches"
@@ -23,14 +22,6 @@
     "InteractionHint": "Slot Crystal From Hand",
     "State": {
       "Definitions": {
-        "default": {
-          "CustomModel": "Blocks/tuningfork/empty.blockymodel",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/tuningfork/empty.png"
-            }
-          ]
-        },
         "Emerald": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
           "CustomModelTexture": [
@@ -38,7 +29,14 @@
               "Texture": "Blocks/tuningfork/emerald.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "EmeraldTuning"
+              }
+            }
+          }
         },
         "Zephyr": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -47,7 +45,14 @@
               "Texture": "Blocks/tuningfork/zephyr.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "ZephyrTuning"
+              }
+            }
+          }
         },
         "Sapphire": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -56,7 +61,14 @@
               "Texture": "Blocks/tuningfork/sapphire.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "SapphireTuning"
+              }
+            }
+          }
         },
         "Topaz": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -65,7 +77,14 @@
               "Texture": "Blocks/tuningfork/topaz.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "TopazTuning"
+              }
+            }
+          }
         },
         "Voidstone": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -74,7 +93,14 @@
               "Texture": "Blocks/tuningfork/voidstone.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "VoidstoneTuning"
+              }
+            }
+          }
         },
         "Diamond": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -83,7 +109,14 @@
               "Texture": "Blocks/tuningfork/diamond.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "DiamondTuning"
+              }
+            }
+          }
         },
         "Ruby": {
           "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
@@ -92,7 +125,14 @@
               "Texture": "Blocks/tuningfork/ruby.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand"
+          "InteractionHint": "Replace Crystal From Hand",
+          "BlockEntity": {
+            "Components": {
+              "AuraBlock": {
+                "EntityEffectId": "RubyTuning"
+              }
+            }
+          }
         }
       }
     },
