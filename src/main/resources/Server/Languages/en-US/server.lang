@@ -30,6 +30,7 @@ items.Kantele.description=An ancient instrument to be played. Can be upgraded wi
 
 
 # === Machine Parts ===
+
 items.Machine_Gears.name=Vibranium Gears
 items.Machine_Gears.description=The gears of a long forgotten mechanism made from Vibranium.\n\
 \n\
@@ -44,3 +45,11 @@ items.Magic_Core.name=Magic Core
 items.Magic_Core.description=The heart of the resonator. A powerful device that can accumulate a large concentration of mana.\n\
 \n\
 <i>Before their method of construction was lost to time, these devices powered many machines. Their disapperance marked the end of an era.</i>
+
+# === Resonator (Tunning Fork) ===
+
+items.tuningfork.name=Resonator
+items.tuningfork.description=The resonator harnesses the latent energy of the elements to give efffects.\n\
+\n\
+<i>This is truely an Echo of the Machine.</i>
+
