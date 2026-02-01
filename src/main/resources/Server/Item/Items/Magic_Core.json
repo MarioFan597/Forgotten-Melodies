@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Magic_Core.name",
+    "Description": "server.items.Magic_Core.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Magic_Core.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Machine_Parts/Magic_Core.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Machine_Parts/Magic_Core.png"
+      }
+    ],
+    "VariantRotation": "DoublePipe",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": "Iron_Stack"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#a97eb9",
+    "BlockSoundSetId": "Glass",
+    "HitboxType": "Plant_Large",
+    "FlipType": "Orthogonal"
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      6,
+      69,
+      21
+    ],
+    "Translation": [
+      -1,
+      -10
+    ]
+  }
+}
