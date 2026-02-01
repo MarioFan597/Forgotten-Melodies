@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.tuningfork.name",
-    "Description": "items.tuningfork.description"
+    "Name": "server.items.tuningfork.name",
+    "Description": "server.items.tuningfork.description"
   },
   "MaxStack": 1,
   "Categories": [

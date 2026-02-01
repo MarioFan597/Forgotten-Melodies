@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Kantele.name",
-    "Description": "items.Kantele.description"
+    "Name": "server.items.Kantele.name",
+    "Description": "server.items.Kantele.description"
   },
   "Categories": [
     "Items.Tools"

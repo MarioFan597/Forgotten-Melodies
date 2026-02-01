@@ -17,7 +17,7 @@ portals.resonant_ruin.tip1=<color is="#05c09a">A musical instrument is required 
 items.Melody_Workbench.name=Melody Workbench
 items.Melody_Workbench.description=A table to craft the tools needed to build machines to resonate with the elements of the world.\n\
 \n\
-<i>Some say the reason shards vibrate is because they resonte with the voice of Gaia herself. To ambilify them is to make her will manifest.</i>
+<i>Some say the reason shards vibrate is because they resonate with the voice of Gaia herself. To amplify them is to make her will manifest.</i>
 
 # === Instruments ===
 
@@ -34,7 +34,7 @@ items.Kantele.description=An ancient instrument to be played. Can be upgraded wi
 items.Machine_Gears.name=Vibranium Gears
 items.Machine_Gears.description=The gears of a long forgotten mechanism made from Vibranium.\n\
 \n\
-<i>These gears are very senesitive to nearby noise. A single note from a Kantele can double their RPM.</i>
+<i>These gears are very sensitive to nearby noise. A single note from a Kantele can double their RPM.</i>
 
 items.Quartz_Resonator.name=Quartz Resonator
 items.Quartz_Resonator.description=The Mechanism needed to capture and amplify the latent energy of the elements.\n\
@@ -44,12 +44,12 @@ items.Quartz_Resonator.description=The Mechanism needed to capture and amplify t
 items.Magic_Core.name=Magic Core
 items.Magic_Core.description=The heart of the resonator. A powerful device that can accumulate a large concentration of mana.\n\
 \n\
-<i>Before their method of construction was lost to time, these devices powered many machines. Their disapperance marked the end of an era.</i>
+<i>Before their method of construction was lost to time, these devices powered many machines. Their disappearance marked the end of an era.</i>
 
 # === Resonator (Tunning Fork) ===
 
-items.tuningfork.name=Resonator
-items.tuningfork.description=The resonator harnesses the latent energy of the elements to give efffects.\n\
+items.tuningfork.name=Elemental Resonator
+items.tuningfork.description=The resonator harnesses the latent energy of the elements to give effects.\n\
 \n\
-<i>This is truely an Echo of the Machine.</i>
+<i>The power of the machine has been told through stories that have echo throughout Orbis for eons.</i>
 
