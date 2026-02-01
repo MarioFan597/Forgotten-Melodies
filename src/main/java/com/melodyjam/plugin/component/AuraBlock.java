@@ -84,7 +84,7 @@ public class AuraBlock implements Component<ChunkStore> {
             if (effectAsset == null) {
                 continue;
             }
-            
+
             controller.addEffect(entityRef, effectAsset, access);
         }
     }

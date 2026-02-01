@@ -53,3 +53,19 @@ items.tuningfork.description=The resonator harnesses the latent energy of the el
 \n\
 <i>This is truely an Echo of the Machine.</i>
 
+# === Puzzle Blocks ====
+
+items.puzzle.diamondsolid.name=Diamond Puzzle Block (Solid)
+items.puzzle.diamondempty.name=Diamond Puzzle Block (Empty)
+items.puzzle.emeraldsolid.name=Emerald Puzzle Block (Solid)
+items.puzzle.emeraldempty.name=Emerald Puzzle Block (Empty)
+items.puzzle.rubysolid.name=Ruby Puzzle Block (Solid)
+items.puzzle.rubyempty.name=Ruby Puzzle Block (Empty)
+items.puzzle.sapphiresolid.name=Sapphire Puzzle Block (Solid)
+items.puzzle.sapphireempty.name=Sapphire Puzzle Block (Empty)
+items.puzzle.topazsolid.name=Topaz Puzzle Block (Solid)
+items.puzzle.topazempty.name=Topaz Puzzle Block (Empty)
+items.puzzle.voidstonesolid.name=Voidstone Puzzle Block (Solid)
+items.puzzle.voidstoneempty.name=Voidstone Puzzle Block (Empty)
+items.puzzle.zephyrsolid.name=Zephyr Puzzle Block (Solid)
+items.puzzle.zephyrempty.name=Zephyr Puzzle Block (Empty)

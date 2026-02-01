@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.puzzle.zephyrsolid.name"
+  },
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "Blocks/PuzzleBlocks/diamond.png"
+      }
+    ],
+    "ParticleColor": "#aeae8c",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Tint": [
+      "#55e4d5"
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
+}

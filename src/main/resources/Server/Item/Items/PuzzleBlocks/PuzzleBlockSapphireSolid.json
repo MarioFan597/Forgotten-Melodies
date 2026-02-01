@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.puzzle.sapphiresolid.name"
+  },
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "Blocks/PuzzleBlocks/diamond.png"
+      }
+    ],
+    "ParticleColor": "#aeae8c",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Tint": [
+      "#1e07b5"
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
+}
