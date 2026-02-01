@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Quartz_Resonator.name",
+    "Description": "server.items.Quartz_Resonator.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Quartz_Resonator.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Machine_Parts/Quartz Crystal Resonator.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Machine_Parts/Quartz_Resonator.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": "Iron_Stack"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Ore",
+    "ParticleColor": "#dfd1e4",
+    "BlockSoundSetId": "Gem",
+    "HitboxType": "Book"
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      269,
+      1,
+      21
+    ],
+    "Translation": [
+      1,
+      1
+    ]
+  }
+}
