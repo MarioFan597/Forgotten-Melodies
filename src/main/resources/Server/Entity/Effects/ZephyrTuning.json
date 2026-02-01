@@ -1,0 +1,8 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/zephyr.png",
+  "Name": "Zephyr Tuning",
+  "Parent": "TuningTemplate",
+  "ApplicationEffects": {
+    "HorizontalSpeedMultiplier": 1.3
+  }
+}

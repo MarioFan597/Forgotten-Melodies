@@ -1,0 +1,13 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/voidstone.png",
+  "Name": "Voidstone Tuning",
+  "Parent": "TuningTemplate",
+  "DamageResistance": {
+    "Elemental": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.2
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/sapphire.png",
+  "Name": "Sapphire Tuning",
+  "Parent": "TuningTemplate",
+  "RawStatModifiers": {
+    "Health": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 1.15
+      }
+    ]
+  }
+}

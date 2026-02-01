@@ -1,0 +1,8 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/emerald.png",
+  "Name": "Emerald Tuning",
+  "Parent": "TuningTemplate",
+  "StatModifiers": {
+    "Stamina": 0.5
+  }
+}

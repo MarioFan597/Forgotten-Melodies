@@ -1,0 +1,13 @@
+{
+  "Parent": "TuningTemplate",
+  "Name": "Diamond Tuning",
+  "StatusEffectIcon": "UI/StatusEffects/diamond.png",
+  "DamageResistance": {
+    "Physical": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.2
+      }
+    ]
+  }
+}

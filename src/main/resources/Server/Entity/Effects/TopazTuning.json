@@ -1,0 +1,13 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/topaz.png",
+  "Name": "Topaz Tuning",
+  "Parent": "TuningTemplate",
+  "RawStatModifiers": {
+    "Stamina": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 1.3
+      }
+    ]
+  }
+}

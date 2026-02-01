@@ -1,0 +1,9 @@
+{
+  "StatusEffectIcon": "UI/StatusEffects/ruby.png",
+  "Name": "Ruby Tuning",
+  "Parent": "TuningTemplate",
+  "Debuff": false,
+  "StatModifiers": {
+    "Health": 1
+  }
+}
