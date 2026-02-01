@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Melody_Workbench.name",
-    "Description": "items.Melody_Workbench.description"
+    "Name": "server.items.Melody_Workbench.name",
+    "Description": "server.items.Melody_Workbench.description"
   },
   "Recipe": {
     "Input": [
@@ -28,7 +28,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Melody_Workbench.png",
+  "Icon": "Icons/ItemsGenerated/Melody_Workstation.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -36,10 +36,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Workstation/Melody_Workstation.blockymodel",
+    "CustomModel": "Blocks/Workstation/Melody_Workstation_shimo.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Workstation/Melody_Workbench.png",
+        "Texture": "Blocks/Workstation/Melody_Workstation_Texture_shimo.png",
         "Weight": 1
       }
     ],

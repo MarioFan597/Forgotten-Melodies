@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.tuningfork.name",
-    "Description": "items.tuningfork.description"
+    "Name": "server.items.tuningfork.name",
+    "Description": "server.items.tuningfork.description"
   },
   "MaxStack": 1,
   "Categories": [
@@ -23,7 +23,7 @@
     "State": {
       "Definitions": {
         "Emerald": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/tuningfork/emerald.png"
@@ -39,7 +39,7 @@
           }
         },
         "Zephyr": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/tuningfork/zephyr.png"
@@ -55,7 +55,7 @@
           }
         },
         "Sapphire": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/tuningfork/sapphire.png"
@@ -71,10 +71,10 @@
           }
         },
         "Topaz": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/topaz.png"
+              "Texture": "Blocks/tuningfork/Tuning Forks_texture_shimo.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -87,7 +87,7 @@
           }
         },
         "Voidstone": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/tuningfork/voidstone.png"

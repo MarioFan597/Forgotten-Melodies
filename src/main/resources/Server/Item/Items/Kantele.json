@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Kantele.name",
-    "Description": "items.Kantele.description"
+    "Name": "server.items.Kantele.name",
+    "Description": "server.items.Kantele.description"
   },
   "Categories": [
     "Items.Tools"
@@ -29,8 +29,8 @@
       }
     ]
   },
-  "Model": "Items/Instruments/Kantele.blockymodel",
-  "Texture": "Items/Instruments/Kantele.png",
+  "Model": "Items/Instruments/Kantele shimo.blockymodel",
+  "Texture": "Items/Instruments/texture_kantele_shimo.png",
   "Quality": "Common",
   "Tool": {
     "Specs": [
