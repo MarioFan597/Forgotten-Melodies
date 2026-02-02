@@ -1,8 +1,8 @@
 {
   "Parent": "KanteleTemplate",
   "TranslationProperties": {
-    "Name": "server.items.KanteleDiamond.name",
-    "Description": "server.items.KanteleDiamond.description"
+    "Name": "server.items.KanteleEmerald.name",
+    "Description": "server.items.KanteleEmerald.description"
   },
   "InteractionVars": {
     "KantelePlayCharging": {
