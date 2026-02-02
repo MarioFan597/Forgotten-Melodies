@@ -1,0 +1,55 @@
+{
+  "Parent": "KanteleTemplate",
+  "InteractionVars": {
+    "KantelePlayCharging": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCharging",
+          "Effects": {
+            "LocalSoundEventId": "SapphirePlay"
+          }
+        }
+      ]
+    },
+    "KantelePlayCollect": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCollect",
+          "BlockSets": [
+            "SapphirePuzzleBlocks"
+          ]
+        }
+      ]
+    },
+    "KantelePlayExecute": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayExecute",
+          "Changes": {
+            "PuzzleBlockSapphireEmpty": "PuzzleBlockSapphireSolid",
+            "PuzzleBlockSapphireSolid": "PuzzleBlockSapphireEmpty"
+          }
+        }
+      ]
+    },
+    "KanteleSwapExecute": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapExecute",
+          "ItemId": "KanteleTopaz"
+        }
+      ]
+    },
+    "KanteleSwapNotify": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapNotify",
+          "Key": "server.song.topaz.notify",
+          "Effects": {
+            "LocalSoundEventId": "TopazSwap"
+          }
+        }
+      ]
+    }
+  }
+}
