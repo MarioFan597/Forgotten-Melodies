@@ -93,7 +93,7 @@
   },
   "Icon": "Icons/ItemsGenerated/Kantele.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "PlayerAnimationsId": "Shears",
+  "PlayerAnimationsId": "Shovel",
   "Tags": {
     "Type": [
       "Tool"
