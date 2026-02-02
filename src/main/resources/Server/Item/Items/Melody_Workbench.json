@@ -60,60 +60,7 @@
       "CompletedSoundEventId": "SFX_Workbench_Craft",
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
       "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
-      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
-      "TierLevels": [
-        {
-          "CraftingTimeReductionModifier": 0.0,
-          "UpgradeRequirement": {
-            "Material": [
-              {
-                "ItemId": "Ingredient_Bar_Copper",
-                "Quantity": 30
-              },
-              {
-                "ItemId": "Ingredient_Bar_Iron",
-                "Quantity": 20
-              },
-              {
-                "ItemId": "Ingredient_Fabric_Scrap_Linen",
-                "Quantity": 20
-              }
-            ],
-            "TimeSeconds": 5.0
-          }
-        },
-        {
-          "UpgradeRequirement": {
-            "Material": [
-              {
-                "ItemId": "Ingredient_Bar_Thorium",
-                "Quantity": 30
-              },
-              {
-                "ItemId": "Ingredient_Bar_Cobalt",
-                "Quantity": 20
-              },
-              {
-                "ItemId": "Ingredient_Leather_Heavy",
-                "Quantity": 30
-              },
-              {
-                "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-                "Quantity": 50
-              },
-              {
-                "ItemId": "Ingredient_Fire_Essence",
-                "Quantity": 25
-              }
-            ],
-            "TimeSeconds": 10.0
-          },
-          "CraftingTimeReductionModifier": 0.15
-        },
-        {
-          "CraftingTimeReductionModifier": 0.3
-        }
-      ]
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default"
     },
     "State": {
       "Id": "crafting",
