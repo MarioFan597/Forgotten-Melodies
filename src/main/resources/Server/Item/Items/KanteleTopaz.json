@@ -1,0 +1,55 @@
+{
+  "Parent": "KanteleTemplate",
+  "InteractionVars": {
+    "KantelePlayCharging": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCharging",
+          "Effects": {
+            "LocalSoundEventId": "TopazPlay"
+          }
+        }
+      ]
+    },
+    "KantelePlayCollect": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCollect",
+          "BlockSets": [
+            "TopazPuzzleBlocks"
+          ]
+        }
+      ]
+    },
+    "KantelePlayExecute": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayExecute",
+          "Changes": {
+            "PuzzleBlockTopazEmpty": "PuzzleBlockTopazSolid",
+            "PuzzleBlockTopazSolid": "PuzzleBlockTopazEmpty"
+          }
+        }
+      ]
+    },
+    "KanteleSwapExecute": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapExecute",
+          "ItemId": "KanteleVoidstone"
+        }
+      ]
+    },
+    "KanteleSwapNotify": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapNotify",
+          "Key": "server.song.voidstone.notify",
+          "Effects": {
+            "LocalSoundEventId": "VoidstoneSwap"
+          }
+        }
+      ]
+    }
+  }
+}

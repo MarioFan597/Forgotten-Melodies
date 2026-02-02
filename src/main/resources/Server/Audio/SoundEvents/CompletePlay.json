@@ -1,0 +1,10 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Complete.ogg"
+      ]
+    }
+  ],
+  "AudioCategory": "AudioCat_Inventory"
+}

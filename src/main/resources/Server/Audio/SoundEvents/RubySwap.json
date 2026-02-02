@@ -1,0 +1,10 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/RubySwap.ogg"
+      ]
+    }
+  ],
+  "AudioCategory": "AudioCat_Inventory"
+}

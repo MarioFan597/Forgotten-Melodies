@@ -1,0 +1,6 @@
+{
+  "IncludeBlockTypes": [
+    "PuzzleBlockSapphireEmpty",
+    "PuzzleBlockSapphireSolid"
+  ]
+}

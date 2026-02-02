@@ -12,6 +12,7 @@
     "DrawType": "Cube",
     "Flags": {},
     "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockRuby",
     "Textures": [
       {
         "All": "Blocks/PuzzleBlocks/diamondEmpty.png"
@@ -24,7 +25,15 @@
     "Tint": [
       "#f00707"
     ],
-    "RequiresAlphaBlending": true
+    "RequiresAlphaBlending": true,
+    "IgnoreSupportWhenPlaced": true,
+    "Support": {
+      "Down": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    }
   },
   "ResourceTypes": [
     {

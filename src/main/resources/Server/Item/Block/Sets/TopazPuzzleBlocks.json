@@ -1,0 +1,6 @@
+{
+  "IncludeBlockTypes": [
+    "PuzzleBlockTopazEmpty",
+    "PuzzleBlockTopazSolid"
+  ]
+}

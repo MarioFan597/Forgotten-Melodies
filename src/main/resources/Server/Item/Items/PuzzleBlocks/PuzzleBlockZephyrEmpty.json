@@ -12,6 +12,7 @@
     "DrawType": "Cube",
     "Flags": {},
     "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockZephyr",
     "Textures": [
       {
         "All": "Blocks/PuzzleBlocks/diamondEmpty.png"
@@ -24,7 +25,15 @@
     "Tint": [
       "#55e4d5"
     ],
-    "RequiresAlphaBlending": true
+    "RequiresAlphaBlending": true,
+    "IgnoreSupportWhenPlaced": true,
+    "Support": {
+      "Down": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    }
   },
   "ResourceTypes": [
     {

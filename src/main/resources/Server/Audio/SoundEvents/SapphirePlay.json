@@ -1,0 +1,10 @@
+{
+  "AudioCategory": "AudioCat_Inventory",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/SapphirePlay.ogg"
+      ]
+    }
+  ]
+}

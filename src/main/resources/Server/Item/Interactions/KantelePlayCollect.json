@@ -1,0 +1,16 @@
+{
+  "Type": "RunOnBlockTypes",
+  "BlockSets": [
+    "DiamondPuzzleBlocks"
+  ],
+  "Range": 20,
+  "MaxCount": 50,
+  "Interactions": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "KantelePlayExecute"
+      }
+    ]
+  }
+}

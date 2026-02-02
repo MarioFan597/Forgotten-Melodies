@@ -1,7 +1,10 @@
 package com.melodyjam.plugin;
 
+import com.hypixel.hytale.assetstore.event.LoadedAssetsEvent;
 import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.asset.type.blockset.config.BlockSet;
+import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
@@ -10,6 +13,7 @@ import com.melodyjam.plugin.Systems.AuraBlockInitializer;
 import com.melodyjam.plugin.Systems.AuraBlockSystem;
 import com.melodyjam.plugin.component.AuraBlock;
 import com.melodyjam.plugin.interaction.ForceStateInteraction;
+import com.melodyjam.plugin.interaction.ReplaceHeldItemInteraction;
 import com.melodyjam.plugin.interaction.WieldedItemConditionInteraction;
 import com.melodyjam.plugin.Systems.BreakRuleSystem;
 import com.melodyjam.plugin.Systems.PlaceRuleSystem;
@@ -42,6 +46,7 @@ public class ForgottenMelodiesPlugin extends JavaPlugin {
 
         this.getCodecRegistry(Interaction.CODEC).register("WieldedItemCondition", WieldedItemConditionInteraction.class, WieldedItemConditionInteraction.CODEC);
         this.getCodecRegistry(Interaction.CODEC).register("ForceState", ForceStateInteraction.class, ForceStateInteraction.CODEC);
+        this.getCodecRegistry(Interaction.CODEC).register("ReplaceHeldItem", ReplaceHeldItemInteraction.class, ReplaceHeldItemInteraction.CODEC);
 		
         // Systems that disable building and breaking inside the dungeon.
         getEntityStoreRegistry().registerSystem(new BreakRuleSystem());

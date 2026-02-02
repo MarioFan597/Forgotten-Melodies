@@ -12,6 +12,7 @@
     "DrawType": "Cube",
     "Flags": {},
     "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockTopaz",
     "Textures": [
       {
         "All": "Blocks/PuzzleBlocks/diamond.png"

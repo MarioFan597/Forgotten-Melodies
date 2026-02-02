@@ -1,0 +1,10 @@
+{
+  "AudioCategory": "AudioCat_Inventory",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/EmeraldPlay.ogg"
+      ]
+    }
+  ]
+}

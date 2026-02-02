@@ -1,0 +1,7 @@
+{
+  "Type": "SendMessage",
+  "Key": "server.song.diamond.notify",
+  "Effects": {
+    "LocalSoundEventId": "DiamondSwap"
+  }
+}

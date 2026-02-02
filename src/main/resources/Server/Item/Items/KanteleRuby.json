@@ -1,0 +1,55 @@
+{
+  "Parent": "KanteleTemplate",
+  "InteractionVars": {
+    "KantelePlayCharging": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCharging",
+          "Effects": {
+            "LocalSoundEventId": "RubyPlay"
+          }
+        }
+      ]
+    },
+    "KantelePlayCollect": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCollect",
+          "BlockSets": [
+            "RubyPuzzleBlocks"
+          ]
+        }
+      ]
+    },
+    "KantelePlayExecute": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayExecute",
+          "Changes": {
+            "PuzzleBlockRubyEmpty": "PuzzleBlockRubySolid",
+            "PuzzleBlockRubySolid": "PuzzleBlockRubyEmpty"
+          }
+        }
+      ]
+    },
+    "KanteleSwapExecute": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapExecute",
+          "ItemId": "KanteleSapphire"
+        }
+      ]
+    },
+    "KanteleSwapNotify": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapNotify",
+          "Key": "server.song.sapphire.notify",
+          "Effects": {
+            "LocalSoundEventId": "SapphireSwap"
+          }
+        }
+      ]
+    }
+  }
+}

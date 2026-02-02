@@ -1,0 +1,7 @@
+{
+  "Type": "ChangeBlock",
+  "Changes": {
+    "PuzzleBlockDiamondEmpty": "PuzzleBlockDiamondSolid",
+    "PuzzleBlockDiamondSolid": "PuzzleBlockDiamondEmpty"
+  }
+}

@@ -51,3 +51,12 @@ items.tuningfork.name=Elemental Resonator
 items.tuningfork.description=The resonator harnesses the latent energy of the elements to give effects.\n\
 \n\
 <i>The power of the machine has been told through stories that have echo throughout Orbis for eons.</i>
+
+# === Song Notifications ===
+song.diamond.notify=You play the Serenade of Diamond.
+song.topaz.notify=You play the Topaz Jig.
+song.emerald.notify=You play the Emerald Melody.
+song.ruby.notify=You play the Song of Ruby.
+song.voidstone.notify=You play the Fugue of the Void.
+song.sapphire.notify=You play the Sapphire March
+song.zephyr.notify=You play the Sonata of Zephyr.

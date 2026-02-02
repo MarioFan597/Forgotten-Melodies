@@ -1,0 +1,6 @@
+{
+  "IncludeBlockTypes": [
+    "PuzzleBlockEmeraldEmpty",
+    "PuzzleBlockEmeraldSolid"
+  ]
+}

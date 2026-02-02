@@ -41,44 +41,6 @@
     ],
     "Speed": 1.0
   },
-  "Interactions": {
-    "Primary": {
-      "Cooldown": {
-        "Id": "Shearing",
-        "Cooldown": 0.2
-      },
-      "Interactions": [
-        {
-          "Type": "ContextualUseNPC",
-          "Context": "Shear",
-          "Effects": {
-            "ItemAnimationId": "Shear",
-            "WaitForAnimationToFinish": true,
-            "WorldSoundEventId": "SFX_Shears_Activate"
-          },
-          "Failed": "Shears_Attack"
-        }
-      ]
-    },
-    "Secondary": {
-      "Cooldown": {
-        "Id": "Shearing",
-        "Cooldown": 0.2
-      },
-      "Interactions": [
-        {
-          "Type": "ContextualUseNPC",
-          "Context": "Shear",
-          "Effects": {
-            "ItemAnimationId": "Shear",
-            "WaitForAnimationToFinish": true,
-            "WorldSoundEventId": "SFX_Shears_Activate"
-          },
-          "Failed": "Shears_Attack"
-        }
-      ]
-    }
-  },
   "IconProperties": {
     "Scale": 0.8,
     "Rotation": [
@@ -100,5 +62,9 @@
     ]
   },
   "ItemSoundSetId": "ISS_Weapons_Wood",
-  "Scale": 1
+  "Scale": 1,
+  "Interactions": {
+    "Primary": "KanteleSwap",
+    "Secondary": "KantelePlay"
+  }
 }

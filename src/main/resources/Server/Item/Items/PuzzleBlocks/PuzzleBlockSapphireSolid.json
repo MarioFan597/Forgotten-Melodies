@@ -12,6 +12,7 @@
     "DrawType": "Cube",
     "Flags": {},
     "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockSapphire",
     "Textures": [
       {
         "All": "Blocks/PuzzleBlocks/diamond.png"

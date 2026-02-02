@@ -10,7 +10,9 @@
   ],
   "Dependencies": {
     "Hytale:EntityModule": "*",
-    "Hytale:BlockModule": "*"
+    "Hytale:BlockModule": "*",
+    "Hytale:BlockSetModule": "*",
+    "Hytale:BlockTypeModule": "*"
   },
   "OptionalDependencies": {},
   "Main": "com.melodyjam.plugin.ForgottenMelodiesPlugin",

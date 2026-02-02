@@ -1,0 +1,55 @@
+{
+  "Parent": "KanteleTemplate",
+  "InteractionVars": {
+    "KantelePlayCharging": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCharging",
+          "Effects": {
+            "LocalSoundEventId": "DiamondPlay"
+          }
+        }
+      ]
+    },
+    "KantelePlayCollect": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayCollect",
+          "BlockSets": [
+            "DiamondPuzzleBlocks"
+          ]
+        }
+      ]
+    },
+    "KantelePlayExecute": {
+      "Interactions": [
+        {
+          "Parent": "KantelePlayExecute",
+          "Changes": {
+            "PuzzleBlockDiamondEmpty": "PuzzleBlockDiamondSolid",
+            "PuzzleBlockDiamondSolid": "PuzzleBlockDiamondEmpty"
+          }
+        }
+      ]
+    },
+    "KanteleSwapExecute": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapExecute",
+          "ItemId": "KanteleEmerald"
+        }
+      ]
+    },
+    "KanteleSwapNotify": {
+      "Interactions": [
+        {
+          "Parent": "KanteleSwapNotify",
+          "Key": "server.song.emerald.notify",
+          "Effects": {
+            "LocalSoundEventId": "EmeraldSwap"
+          }
+        }
+      ]
+    }
+  }
+}
