@@ -1,5 +1,9 @@
 {
   "Parent": "KanteleTemplate",
+  "TranslationProperties": {
+    "Name": "server.items.KanteleZephyr.name",
+    "Description": "server.items.KanteleZephyr.description"
+  },
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

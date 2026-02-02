@@ -23,9 +23,47 @@ items.Melody_Workbench.description=A table to craft the tools needed to build ma
 benchCategories.melody.instrument=Kantele
 
 items.Kantele.name=Kantele
-items.Kantele.description=An ancient instrument to be played. Can be upgraded with crafted strings to awaken it's magical ability.\n\
+items.Kantele.description=An ancient instrument of a forgotten era. In this form, it is unplayable. Needs to be upgraded with crafted strings to awaken it's magical ability.\n\
 \n\
 <i>In the days before the curse, the followers of Gaia would play these to accompany their hymns.</i>
+
+items.KanteleRuby.name=Enchanted Kantele (Song of Ruby)
+items.KanteleRuby.description=An ancient enchanted instrument to be played. Right click to play the Song of Ruby and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>The residents of the Devastated Lands used to play this tune. Old folk tales say that when there was an earthquake in the era, it was as result of the beasts below dancing to this tune.</i>
+
+items.KanteleDiamond.name=Enchanted Kantele (Serenade of Diamond)
+items.KanteleDiamond.description=An ancient enchanted instrument to be played. Right click to play the Serenade of Diamond and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>On warm summer days where it seems like all of nature have come out to play, if one listens very closely to the wind, they can hear this melody pass them by.</i>
+
+
+items.KanteleTopaz.name=Enchanted Kantele (Topaz Jig)
+items.KanteleTopaz.description=An ancient enchanted instrument to be played. Right click to play the Topaz Jig and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>In the days before the curse, the denizens of Orbis would hold large festivals together where they would dance and sing. There was no tune more popular than the Topaz Jig. It was to a point where their dancing to it was often mistaken for thunder at a distance.</i>
+
+
+items.KanteleEmerald.name=Enchanted Kantele (Emerald Melody)
+items.KanteleEmerald.description=An ancient enchanted instrument to be played. Right click to play the Emerald Melody and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>When working long hours on the field, farmers find it soothing to the soul to hum this melody. When ask, they can never tell you where they first heard it from. It is believed that this melody might be ingrained in all living creatures, and only needs a careful ear to make itself known.</i>
+
+
+items.KanteleVoidstone.name=Enchanted Kantele (Fugue of the Void)
+items.KanteleVoidstone.description=An ancient enchanted instrument to be played. Right click to play the Fugue of the Void and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>The creatures of the void are unknowable in many different ways. No one can tell you where they came from our what their purpose in Orbis is. What we do know is that at rare moments, they often start sining this song. Afterwards, they suddenly bolt off, almost as if they forgot something.</i>
+
+items.KanteleSapphire.name=Enchanted Kantele (Sapphire March)
+items.KanteleSapphire.description=An ancient enchanted instrument to be played. Right click to play the Sapphire March and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>For those heading to the beach, a favorite past time in picking up the numerous shells that the tide drags in. If one where to place their ear up to one of these, they would hear the song of the sea. According to old wives tales, those who here this melody are compelled to throw themselves into such ocean, no mater the distance they must walk to do so.</i>
+
+items.KanteleZephyr.name=Enchanted Kantele (Sonata of Zephyr)
+items.KanteleZephyr.description=An ancient enchanted instrument to be played. Right click to play the Sonata of Zephyr and switch puzzle blocks of the same type. Left click the ground to change song.\n\
+\n\
+<i>The outlanders in their quest for power looked in many places for where it could be found. One such place was from the frozen heart of the Whisperfrost Frontiers. According to the old texts of theirs, they followed this song to the frozen core of the land. The moment they tried seizing it however, it vanished from their grasp. This lead them to instead seek power from another source instead.</i>
 
 
 # === Machine Parts ===
@@ -59,10 +97,10 @@ items.Cantiflora_Empty.name=Withered Cantiflora
 items.Cantiflora_Empty.description=A strange plant that reacts to melody. If left alone, it reverts back to its branch like state.
 
 # === Song Notifications ===
-song.diamond.notify=You play the Serenade of Diamond.
-song.topaz.notify=You play the Topaz Jig.
-song.emerald.notify=You play the Emerald Melody.
-song.ruby.notify=You play the Song of Ruby.
-song.voidstone.notify=You play the Fugue of the Void.
-song.sapphire.notify=You play the Sapphire March
-song.zephyr.notify=You play the Sonata of Zephyr.
+song.diamond.notify=You switch to the Serenade of Diamond.
+song.topaz.notify=You switch to the Topaz Jig.
+song.emerald.notify=You switch to the Emerald Melody.
+song.ruby.notify=You switch to the Song of Ruby.
+song.voidstone.notify=You switch to the Fugue of the Void.
+song.sapphire.notify=You switch to the Sapphire March
+song.zephyr.notify=You switch to the Sonata of Zephyr.

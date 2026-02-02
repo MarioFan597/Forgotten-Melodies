@@ -1,5 +1,9 @@
 {
   "Parent": "KanteleTemplate",
+  "TranslationProperties": {
+    "Name": "server.items.KanteleRuby.name",
+    "Description": "server.items.KanteleRuby.description"
+  },
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

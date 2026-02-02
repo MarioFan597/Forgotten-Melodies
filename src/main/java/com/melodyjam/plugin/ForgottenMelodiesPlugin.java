@@ -11,6 +11,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.melodyjam.plugin.Systems.AuraBlockInitializer;
 import com.melodyjam.plugin.Systems.AuraBlockSystem;
+import com.melodyjam.plugin.commands.KanteleCommand;
 import com.melodyjam.plugin.component.AuraBlock;
 import com.melodyjam.plugin.interaction.ForceStateInteraction;
 import com.melodyjam.plugin.interaction.ReplaceHeldItemInteraction;
@@ -51,6 +52,9 @@ public class ForgottenMelodiesPlugin extends JavaPlugin {
         // Systems that disable building and breaking inside the dungeon.
         getEntityStoreRegistry().registerSystem(new BreakRuleSystem());
         getEntityStoreRegistry().registerSystem(new PlaceRuleSystem());
+
+        // Register kantele command
+        getCommandRegistry().registerCommand(new KanteleCommand());
     }
 
     @Override

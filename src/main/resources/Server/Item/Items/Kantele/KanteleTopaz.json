@@ -1,5 +1,9 @@
 {
   "Parent": "KanteleTemplate",
+  "TranslationProperties": {
+    "Name": "server.items.KanteleTopaz.name",
+    "Description": "server.items.KanteleTopaz.description"
+  },
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

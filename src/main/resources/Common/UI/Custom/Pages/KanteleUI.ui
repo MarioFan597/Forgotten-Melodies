@@ -1,0 +1,159 @@
+$C = "../Common.ui";
+
+@HighDStyle = TextButtonStyle(
+    Default: (Background: #b00bb0, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #df59df, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #871987, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@HighCStyle = TextButtonStyle(
+    Default: (Background: #9b11e0, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #c45ef7, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #7b349e, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@HighBStyle = TextButtonStyle(
+    Default: (Background: #5824dc, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #885afc, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #381889, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@HighAStyle = TextButtonStyle(
+    Default: (Background: #264fdc, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #6182f4, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #0f2982, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@GStyle = TextButtonStyle(
+    Default: (Background: #5ad4c9, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #91f9f0, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #1b756d, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@FStyle = TextButtonStyle(
+    Default: (Background: #58d28e, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #94f7c0, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #198c4c, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@EStyle = TextButtonStyle(
+    Default: (Background: #6ebf65, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #96f48c, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #2f8925, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@LowDStyle = TextButtonStyle(
+    Default: (Background: #9ccc48, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #cef48c, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #658925, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@LowCStyle = TextButtonStyle(
+    Default: (Background: #d8b517, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #f1d762, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #897621, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@LowBStyle = TextButtonStyle(
+    Default: (Background: #e2853a, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #f9af73, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #965520, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@LowAStyle = TextButtonStyle(
+    Default: (Background: #e24d37, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (Background: #f18878, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (Background: #963627, LabelStyle: (FontSize: 16, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+Group {
+    Anchor: (Width: 550, Height: 450);
+    Background: #1a1a2e(0.95);
+    LayoutMode: Top;
+    Padding: (Full: 20);
+
+    Label #Title {
+        Text: "Kantele";
+        Anchor: (Height: 40);
+        Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Center);
+    }
+
+    Group { Anchor: (Height: 25); }
+
+    TextButton #HighD {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 275, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "D";
+        Style: @HighDStyle;
+    }
+
+    TextButton #HighC {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 250, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "C";
+        Style: @HighCStyle;
+    }
+
+    TextButton #HighB {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 225, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "B";
+        Style: @HighBStyle;
+    }
+
+    TextButton #HighA {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 200, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "A";
+        Style: @HighAStyle;
+    }
+
+    TextButton #G {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 175, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "G";
+        Style: @GStyle;
+    }
+
+    TextButton #F {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 150, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "F";
+        Style: @FStyle;
+    }
+
+    TextButton #E {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 125, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "E";
+        Style: @EStyle;
+    }
+
+    TextButton #LowD {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 100, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "D";
+        Style: @LowDStyle;
+    }
+
+    TextButton #LowC {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 75, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "C";
+        Style: @LowCStyle;
+    }
+
+    TextButton #LowB {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 50, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "B";
+        Style: @LowBStyle;
+    }
+
+    TextButton #LowA {
+        Anchor: (Width: 750, Height: 20, Left: 15, Right: 25, Top: 0, Bottom: 5);
+        Padding: (Left: 20);
+        Text: "A";
+        Style: @LowAStyle;
+    }
+}
