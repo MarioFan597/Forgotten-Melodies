@@ -1,43 +1,48 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.puzzle.emeraldempty.name"
+    "Name": "server.items.Cantiflora_Empty.name",
+    "Description": "server.items.Cantiflora_Empty.description"
   },
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"
   ],
-  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/Plant_Dead_Leaves.png",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
   "BlockType": {
     "Material": "Empty",
-    "DrawType": "Cube",
-    "Flags": {},
-    "BlockParticleSetId": "Stone",
-    "Set": "PuzzleBlockEmerald",
-    "Textures": [
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Foliage/Leaves/DownShape.blockymodel",
+    "CustomModelTexture": [
       {
-        "All": "Blocks/PuzzleBlocks/diamondEmpty.png"
+        "Texture": "Blocks/Foliage/Leaves/UpShapeSoft_Textures/Dead.png",
+        "Weight": 1
       }
     ],
-    "ParticleColor": "#aeae8c",
-    "BlockSoundSetId": "Stone",
-    "BlockBreakingDecalId": "Breaking_Decals_Rock",
-    "Opacity": "Semitransparent",
-    "Tint": [
-      "#38be14"
+    "Opacity": "Cutout",
+    "Group": "@Tech",
+    "Effect": [
+      "Wind"
     ],
-    "RequiresAlphaBlending": true,
+    "Flags": {},
+    "RandomRotation": "YawPitchRollStep1",
+    "BlockParticleSetId": "Leaves",
+    "ParticleColor": "#543f3c",
+    "BlockSoundSetId": "Leaves",
     "IgnoreSupportWhenPlaced": true,
-    "Support": {
-      "Down": [
-        {
-          "Support": "Ignored"
-        }
-      ]
-    }
+    "Set": "PuzzleBlockEmerald"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Rock"
-    }
-  ]
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Leaves"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage"
 }

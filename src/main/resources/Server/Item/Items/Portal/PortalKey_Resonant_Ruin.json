@@ -28,12 +28,20 @@
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Adamantite",
-        "Quantity": 10
+        "ItemId": "Ingredient_Crystal_Green",
+        "Quantity": 15
       },
       {
-        "ItemId": "Ingredient_Fire_Essence",
-        "Quantity": 30
+        "ItemId": "Ingredient_Crystal_Blue",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 5
       }
     ],
     "BenchRequirement": [

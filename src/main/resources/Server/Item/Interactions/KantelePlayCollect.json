@@ -3,8 +3,8 @@
   "BlockSets": [
     "DiamondPuzzleBlocks"
   ],
-  "Range": 20,
-  "MaxCount": 50,
+  "Range": 35,
+  "MaxCount": 500,
   "Interactions": {
     "Interactions": [
       {

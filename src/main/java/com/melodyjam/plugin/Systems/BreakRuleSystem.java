@@ -15,7 +15,6 @@ import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class BreakRuleSystem extends EntityEventSystem<EntityStore, BreakBlockEvent> {
@@ -29,7 +28,12 @@ public class BreakRuleSystem extends EntityEventSystem<EntityStore, BreakBlockEv
             "Furniture_Temple_Light_Pot",
             "Rubble_Marble",
             "Rubble_Marble_Medium",
-            "Wood_Sticks"
+            "Wood_Sticks",
+            "Furniture_Frozen_Castle_Pot",
+            "Rubble_Ice",
+            "Rubble_Ice_Medium",
+            "Rock_Ice_Icicles",
+            "Rock_Ice_Stalactite_Large"
     };
 
     public BreakRuleSystem() {

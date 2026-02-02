@@ -52,9 +52,11 @@ items.tuningfork.description=The resonator harnesses the latent energy of the el
 \n\
 <i>The power of the machine has been told through stories that have echo throughout Orbis for eons.</i>
 
-# === Earth Element Items ===
-items.Cantiflora.name=Cantiflora
-items.Cantiflora.description=A strange plant that reacts to melody. If left alone, it reverts back to its branch like state.
+# === Element Puzzle Blocks ===
+items.Cantiflora_Solid.name=Cantiflora
+items.Cantiflora_Solid.description=A strange plant that reacts to melody. If left alone, it reverts back to its branch like state.
+items.Cantiflora_Empty.name=Withered Cantiflora
+items.Cantiflora_Empty.description=A strange plant that reacts to melody. If left alone, it reverts back to its branch like state.
 
 # === Song Notifications ===
 song.diamond.notify=You play the Serenade of Diamond.
