@@ -3,6 +3,7 @@
     "Name": "server.items.tuningfork.name",
     "Description": "server.items.tuningfork.description"
   },
+  "Icon": "Icons/ItemsGenerated/TunningFork.png",
   "MaxStack": 1,
   "Categories": [
     "Furniture.Benches"
@@ -18,7 +19,7 @@
         "Texture": "Blocks/tuningfork/Final_Texture_Empty.png"
       }
     ],
-    "InteractionHint": "Slot Crystal From Hand",
+    "InteractionHint": "server.items.tuningfork.no_crystal",
     "State": {
       "Definitions": {
         "Emerald": {
@@ -28,7 +29,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Green.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
@@ -60,7 +61,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Blue.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
@@ -76,7 +77,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Yellow.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
@@ -92,7 +93,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Purple.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
@@ -108,7 +109,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_White.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
@@ -124,7 +125,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Red.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {

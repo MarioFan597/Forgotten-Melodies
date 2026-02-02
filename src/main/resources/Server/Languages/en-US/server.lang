@@ -89,6 +89,8 @@ items.tuningfork.name=Elemental Resonator
 items.tuningfork.description=The resonator harnesses the latent energy of the elements to give effects.\n\
 \n\
 <i>The power of the machine has been told through stories that have echo throughout Orbis for eons.</i>
+items.tuningfork.no_crystal=Press [{key}] to insert a crystal shard
+items.tuningfork.has_crystal=Press [{key}] to grab stored crystal shard
 
 # === Element Puzzle Blocks ===
 items.Cantiflora_Solid.name=Cantiflora
