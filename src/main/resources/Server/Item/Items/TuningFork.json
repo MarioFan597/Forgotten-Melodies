@@ -12,21 +12,20 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/tuningfork/empty.blockymodel",
+    "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/tuningfork/empty.png",
-        "Weight": 1
+        "Texture": "Blocks/tuningfork/Final_Texture_Empty.png"
       }
     ],
     "InteractionHint": "Slot Crystal From Hand",
     "State": {
       "Definitions": {
         "Emerald": {
-          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/emerald.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Green.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -39,10 +38,10 @@
           }
         },
         "Zephyr": {
-          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/zephyr.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Cyan.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -55,10 +54,10 @@
           }
         },
         "Sapphire": {
-          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/sapphire.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Blue.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -71,10 +70,10 @@
           }
         },
         "Topaz": {
-          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/Tuning Forks_texture_shimo.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Yellow.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -87,10 +86,10 @@
           }
         },
         "Voidstone": {
-          "CustomModel": "Blocks/tuningfork/Tuning Forks_shimo - Converted.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/voidstone.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Purple.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -103,10 +102,10 @@
           }
         },
         "Diamond": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/diamond.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_White.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
@@ -119,10 +118,10 @@
           }
         },
         "Ruby": {
-          "CustomModel": "Blocks/tuningfork/tuning.blockymodel",
+          "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/tuningfork/ruby.png"
+              "Texture": "Blocks/tuningfork/Final_Texture_Red.png"
             }
           ],
           "InteractionHint": "Replace Crystal From Hand",
