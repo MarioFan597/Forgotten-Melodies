@@ -9,9 +9,23 @@
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Empty",
-    "DrawType": "Empty",
-    "Opacity": "Transparent",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
     "Set": "PuzzleBlockSapphire",
+    "Textures": [
+      {
+        "All": "Blocks/PuzzleBlocks/diamondEmpty.png"
+      }
+    ],
+    "ParticleColor": "#1c6dec",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Opacity": "Semitransparent",
+    "Tint": [
+      "#1c6dec"
+    ],
+    "RequiresAlphaBlending": true,
     "IgnoreSupportWhenPlaced": true,
     "Support": {
       "Down": [
@@ -20,5 +34,10 @@
         }
       ]
     }
-  }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
 }

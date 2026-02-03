@@ -3,8 +3,8 @@
     "Name": "server.items.puzzle.sapphiresolid.name"
   },
   "Parent": "Rock_Ice",
-  "Icon": "Icons/ItemsGenerated/Rock_Ice_Permafrost.png",
   "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockSapphireSolid.png",
   "Categories": [
     "Blocks.Deco"
   ],
