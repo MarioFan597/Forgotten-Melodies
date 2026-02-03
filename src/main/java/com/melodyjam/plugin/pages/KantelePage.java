@@ -2,10 +2,13 @@
 
 package com.melodyjam.plugin.pages;
 
+import com.hypixel.hytale.component.Ref;
+import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.protocol.packets.interface_.CustomPageLifetime;
 import com.hypixel.hytale.server.core.entity.entities.player.pages.BasicCustomUIPage;
 import com.hypixel.hytale.server.core.ui.builder.UICommandBuilder;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
+import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 
 import javax.annotation.Nonnull;
 
@@ -21,4 +24,13 @@ public class KantelePage extends BasicCustomUIPage {
         // Path is relative to: src/main/resources/Common/UI/Custom/
         cmd.append("Pages/KanteleUI.ui");
     }
+//
+//    @Override
+//    public void handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, Data data) {
+//        super.handleDataEvent(ref, store, data);
+//
+//        System.out.println("EVENT: " + data.value);
+//
+//        sendUpdate();
+//    }
 }

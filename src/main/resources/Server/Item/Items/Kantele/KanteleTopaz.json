@@ -10,7 +10,7 @@
         {
           "Parent": "KantelePlayCharging",
           "Effects": {
-            "LocalSoundEventId": "TopazPlay"
+            "WorldSoundEventId": "TopazPlay"
           }
         }
       ]

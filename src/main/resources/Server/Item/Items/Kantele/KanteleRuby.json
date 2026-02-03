@@ -10,7 +10,7 @@
         {
           "Parent": "KantelePlayCharging",
           "Effects": {
-            "LocalSoundEventId": "RubyPlay"
+            "WorldSoundEventId": "RubyPlay"
           }
         }
       ]

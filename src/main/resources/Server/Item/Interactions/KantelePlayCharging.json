@@ -1,7 +1,7 @@
 {
   "Type": "Charging",
   "Effects": {
-    "LocalSoundEventId": "DiamondPlay",
+    "WorldSoundEventId": "DiamondPlay",
     "ClearSoundEventOnFinish": true
   },
   "HorizontalSpeedMultiplier": 0.7,
