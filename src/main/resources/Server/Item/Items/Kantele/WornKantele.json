@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.WornKantele.name",
+    "Description": "server.items.WornKantele.description"
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "ItemLevel": 16,
+  "Recipe": {
+    "TimeSeconds": 2,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Instrument"
+        ],
+        "Id": "Melody_Workbench"
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 5
+      }
+    ]
+  },
+  "Model": "Items/Instruments/Kantele shimo.blockymodel",
+  "Texture": "Items/Instruments/texture_kantele_worn.png",
+  "Quality": "Common",
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1.0,
+        "GatherType": "SoftBlocks"
+      }
+    ],
+    "Speed": 1.0
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      44,
+      207,
+      1
+    ],
+    "Translation": [
+      10,
+      -12
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/KanteleWorn.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "PlayerAnimationsId": "Shovel",
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "Scale": 1,
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OpenCustomUI",
+          "CancelOnItemChange": true,
+          "Page": {
+            "Id": "Kantele"
+          }
+        }
+      ]
+    }
+  }
+}
