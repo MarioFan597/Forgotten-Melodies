@@ -28,9 +28,7 @@ items.Kantele.description=An ancient instrument of a forgotten era. In this form
 <i>In the days before the curse, the followers of Gaia would play these to accompany their hymns.</i>
 
 items.WornKantele.name=Worn Kantele
-items.WornKantele.description=The magic has left this instrument long ago. You can still use it to entertain company, however. Right click to give it a strum.\n\
-\n\
-<i>In the days before the curse, the followers of Gaia would play these to accompany their hymns.</i>
+items.WornKantele.description=The magic has left this instrument long ago. You can still use it to entertain company, however. Right click to give it a strum.
 
 items.KanteleRuby.name=Enchanted Kantele (Song of Ruby)
 items.KanteleRuby.description=An ancient enchanted instrument to be played. Right click to play the Song of Ruby and switch puzzle blocks of the same type. Left click to change song.\n\
