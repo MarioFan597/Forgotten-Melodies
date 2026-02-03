@@ -8,7 +8,7 @@
   ],
   "ItemLevel": 16,
   "Recipe": {
-    "TimeSeconds": 2,
+    "TimeSeconds": 5,
     "BenchRequirement": [
       {
         "Type": "Crafting",
@@ -18,18 +18,35 @@
         "Id": "Melody_Workbench"
       }
     ],
+    "RequiredMemoriesLevel": 5,
     "Input": [
       {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Blue"
+        "ItemId": "Ingredient_Crystal_Blue",
+        "Quantity": 25
       },
       {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Red"
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 25
       },
       {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Green"
+        "ItemId": "Ingredient_Crystal_Green",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 25
       },
       {
         "Quantity": 25,
