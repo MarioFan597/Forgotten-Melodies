@@ -8,6 +8,36 @@
   "Categories": [
     "Furniture.Benches"
   ],
+  "Recipe": {
+    "TimeSeconds": 10,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Instrument"
+        ],
+        "Id": "Melody_Workbench"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Machine_Gears",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Magic_Core",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Quartz_Resonator",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 20
+      }
+    ]
+  },
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Solid",
