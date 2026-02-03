@@ -4,7 +4,7 @@
       "id": "1",
       "name": "kantele",
       "position": {"x": 2, "y": 5, "z": 1},
-      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
       "shape": {
         "type": "box",
         "offset": {"x": 0.5, "y": 14, "z": 1},
@@ -47,7 +47,8 @@
         },
         "unwrapMode": "custom",
         "visible": true,
-        "doubleSided": false
+        "doubleSided": false,
+        "shadingMode": "flat"
       },
       "children": [
         {
@@ -98,7 +99,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -149,7 +151,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -200,7 +203,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -251,7 +255,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -302,7 +307,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -353,7 +359,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -404,7 +411,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -455,7 +463,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -506,7 +515,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -557,7 +567,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -608,7 +619,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         }
       ]
@@ -617,7 +629,7 @@
       "id": "13",
       "name": "line2",
       "position": {"x": 0, "y": 48, "z": 1},
-      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
       "shape": {
         "type": "box",
         "offset": {"x": -4.5, "y": -21.5, "z": -0.5},
@@ -660,7 +672,8 @@
         },
         "unwrapMode": "custom",
         "visible": true,
-        "doubleSided": false
+        "doubleSided": false,
+        "shadingMode": "flat"
       },
       "children": [
         {
@@ -711,7 +724,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -762,7 +776,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -813,7 +828,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         },
         {
@@ -864,7 +880,8 @@
             },
             "unwrapMode": "custom",
             "visible": true,
-            "doubleSided": false
+            "doubleSided": false,
+            "shadingMode": "flat"
           }
         }
       ]
