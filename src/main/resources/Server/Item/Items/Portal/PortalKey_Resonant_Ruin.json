@@ -9,7 +9,7 @@
   ],
   "PortalKey": {
     "PortalType": "Resonant_Ruin",
-    "TimeLimitSeconds": 1200
+    "TimeLimitSeconds": 900
   },
   "BlockType": {
     "DrawType": "Model",
