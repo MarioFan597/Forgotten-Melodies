@@ -13,8 +13,13 @@
     "Set": "PuzzleBlockSapphire",
     "Textures": [
       {
-        "All": "BlockTextures/Rock_Ice_Blue.png",
-        "Weight": 1
+        "Weight": 1,
+        "Up": "BlockTextures/Blue/bluetop.png",
+        "Down": "BlockTextures/Blue/bluebottom.png",
+        "North": "BlockTextures/Blue/blue1.png",
+        "South": "BlockTextures/Blue/blue3.png",
+        "West": "BlockTextures/Blue/blue4.png",
+        "East": "BlockTextures/Blue/blue2.png"
       }
     ],
     "ParticleColor": "#bef4f5",

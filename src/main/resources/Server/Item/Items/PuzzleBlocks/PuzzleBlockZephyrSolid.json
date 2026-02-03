@@ -15,15 +15,18 @@
     "Set": "PuzzleBlockDiamond",
     "Textures": [
       {
-        "All": "Blocks/PuzzleBlocks/diamond.png"
+        "Weight": 1,
+        "Up": "BlockTextures/Cyan/cyantop.png",
+        "Down": "BlockTextures/Cyan/cyanbottom.png",
+        "North": "BlockTextures/Cyan/cyan1.png",
+        "South": "BlockTextures/Cyan/cyan3.png",
+        "West": "BlockTextures/Cyan/cyan4.png",
+        "East": "BlockTextures/Cyan/cyan2.png"
       }
     ],
     "ParticleColor": "#aeae8c",
     "BlockSoundSetId": "Stone",
-    "BlockBreakingDecalId": "Breaking_Decals_Rock",
-    "Tint": [
-      "#55e4d5"
-    ]
+    "BlockBreakingDecalId": "Breaking_Decals_Rock"
   },
   "ResourceTypes": [
     {

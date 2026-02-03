@@ -15,15 +15,19 @@
     "Set": "PuzzleBlockRuby",
     "Textures": [
       {
-        "All": "Blocks/PuzzleBlocks/diamond.png"
+        "Weight": 1,
+        "Up": "BlockTextures/Red/redtop.png",
+        "Down": "BlockTextures/Red/redbottom.png",
+        "North": "BlockTextures/Red/red1.png",
+        "South": "BlockTextures/Red/red3.png",
+        "West": "BlockTextures/Red/red4.png",
+        "East": "BlockTextures/Red/red2.png"
+
       }
     ],
     "ParticleColor": "#aeae8c",
     "BlockSoundSetId": "Stone",
-    "BlockBreakingDecalId": "Breaking_Decals_Rock",
-    "Tint": [
-      "#f00707"
-    ]
+    "BlockBreakingDecalId": "Breaking_Decals_Rock"
   },
   "ResourceTypes": [
     {

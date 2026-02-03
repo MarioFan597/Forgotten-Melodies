@@ -15,15 +15,18 @@
     "Set": "PuzzleBlockVoidstone",
     "Textures": [
       {
-        "All": "Blocks/PuzzleBlocks/diamond.png"
+        "Weight": 1,
+        "Up": "BlockTextures/Purple/purpletop.png",
+        "Down": "BlockTextures/Purple/purplebottom.png",
+        "North": "BlockTextures/Purple/purple1.png",
+        "South": "BlockTextures/Purple/purple3.png",
+        "West": "BlockTextures/Purple/purple4.png",
+        "East": "BlockTextures/Purple/purple2.png"
       }
     ],
     "ParticleColor": "#aeae8c",
     "BlockSoundSetId": "Stone",
-    "BlockBreakingDecalId": "Breaking_Decals_Rock",
-    "Tint": [
-      "#8116b9"
-    ]
+    "BlockBreakingDecalId": "Breaking_Decals_Rock"
   },
   "ResourceTypes": [
     {
