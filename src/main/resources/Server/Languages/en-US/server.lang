@@ -23,9 +23,7 @@ items.Melody_Workbench.description=A table to craft the tools needed to build ma
 benchCategories.melody.instrument=Kantele
 
 items.Kantele.name=Enchanted Kantele
-items.Kantele.description=An ancient instrument of a forgotten era. In this form, it is unplayable. Needs to be upgraded with crafted strings to awaken it's magical ability.\n\
-\n\
-<i>In the days before the curse, the followers of Gaia would play these to accompany their hymns.</i>
+items.Kantele.description=An ancient instrument of a forgotten era. In this form, it is unplayable. Needs to be upgraded with crafted strings to awaken it's magical ability.
 
 items.WornKantele.name=Worn Kantele
 items.WornKantele.description=The magic has left this instrument long ago. You can still use it to entertain company, however. Right click to give it a strum.
