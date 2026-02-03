@@ -9,7 +9,7 @@ portals.resonant_ruin=Resonant Ruin
 portals.resonant_ruin.description=A temple that once flourished in melodies now stand silent, forgotten and in ruin.\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-portals.resonant_ruin.tip1=<color is="#05c09a">A musical instrument is required to traverse.</color>
+portals.resonant_ruin.tip1=<color is="#05c09a">An enchanted musical instrument is required to traverse.</color>
 
 # === Workbench ===
 
@@ -114,7 +114,7 @@ items.tuningfork.description=The resonator harnesses the latent energy of the el
 items.tuningfork.no_crystal=Press [{key}] to insert a crystal shard
 items.tuningfork.has_crystal=Press [{key}] to grab stored crystal shard
 
-# === Element Puzzle Blocks ===
+# === Dungeon Element Puzzle Blocks ===
 items.Cantiflora_Solid.name=Cantiflora
 items.Cantiflora_Solid.description=A strange plant that reacts to melody. If left alone, it reverts back to its branch like state.
 items.Cantiflora_Empty.name=Withered Cantiflora
