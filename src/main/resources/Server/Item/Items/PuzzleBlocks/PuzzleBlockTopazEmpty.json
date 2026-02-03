@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.puzzle.topazempty.name"
+    "Name": "server.items.puzzle.topazempty.name",
+    "Description": "server.items.puzzle.description"
   },
   "MaxStack": 100,
   "Categories": [

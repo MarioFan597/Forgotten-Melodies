@@ -1,12 +1,32 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.puzzle.sapphiresolid.name"
+    "Name": "server.items.puzzle.sapphiresolid.name",
+    "Description": "server.items.puzzle.description"
   },
   "MaxStack": 100,
   "Icon": "Icons/ItemsGenerated/PuzzleBlockSapphireSolid.png",
   "Categories": [
     "Blocks.Deco"
   ],
+  "Recipe": {
+    "TimeSeconds": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Instrument"
+        ],
+        "Id": "Melody_Workbench"
+      }
+    ],
+    "RequiredMemoriesLevel": 5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Crystal_Blue",
+        "Quantity": 5
+      }
+    ]
+  },
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Solid",
@@ -25,6 +45,12 @@
         "East": "BlockTextures/Blue/blue2.png"
       }
     ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
     "ParticleColor": "#bef4f5",
     "TransitionTexture": "BlockTextures/Transition_Rock_Ice.png",
     "CubeShadingMode": "Standard"
