@@ -8,6 +8,7 @@
   "Categories": [
     "Furniture.Benches"
   ],
+  "Quality": "Rare",
   "Recipe": {
     "TimeSeconds": 10,
     "BenchRequirement": [
