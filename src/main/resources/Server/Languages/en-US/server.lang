@@ -68,8 +68,10 @@ items.KanteleZephyr.description=An ancient enchanted instrument to be played. Ri
 # === Puzzle Blocks ===
 items.puzzle.diamondsolid.name = Full White Puzzleblock
 items.puzzle.diamondempty.name = Empty White Puzzleblock
-items.puzzle.emeraldsolid.name = Full Camoflagued Green Puzzleblock
-items.puzzle.emeraldempty.name = Empty Camoflagued Green Puzzleblock
+items.puzzle.emeraldsolid.name = Full Camouflage Green Puzzleblock
+items.puzzle.emerald2empty.name = Empty Green Puzzleblock
+items.puzzle.emerald2solid.name = Full Green Puzzleblock
+items.puzzle.emeraldempty.name = Empty Camouflage Green Puzzleblock
 items.puzzle.rubysolid.name = Full Red Puzzleblock
 items.puzzle.rubyempty.name = Empty Red Puzzleblock
 items.puzzle.sapphiresolid.name = Full Blue Puzzleblock
@@ -81,6 +83,7 @@ items.puzzle.voidstoneempty.name = Empty Purple Puzzleblock
 items.puzzle.zephyrsolid.name = Full Cyan Puzzleblock
 items.puzzle.zephyrempty.name = Empty Cyan Puzzleblock
 
+items.puzzle..name = Empty Cyan Puzzleblock
 
 # === Machine Parts ===
 

@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.puzzle.emerald2empty.name"
+  },
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockDiamond",
+    "Textures": [
+      {
+        "All": "Blocks/PuzzleBlocks/diamondEmpty.png"
+      }
+    ],
+    "ParticleColor": "#66bd46",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Opacity": "Semitransparent",
+    "Tint": [
+      "#66bd46"
+    ],
+    "RequiresAlphaBlending": true,
+    "IgnoreSupportWhenPlaced": true,
+    "Support": {
+      "Down": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
+}

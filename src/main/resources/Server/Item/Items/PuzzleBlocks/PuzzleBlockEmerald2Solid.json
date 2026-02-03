@@ -1,0 +1,37 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.puzzle.emerald2solid.name"
+  },
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockEmeraldSolid.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
+    "Set": "PuzzleBlockDiamond",
+    "Textures": [
+      {
+        "Weight": 1,
+        "Up": "BlockTextures/Green/greentop.png",
+        "Down": "BlockTextures/Green/greenbottom.png",
+        "North": "BlockTextures/Green/green1.png",
+        "South": "BlockTextures/Green/green3.png",
+        "West": "BlockTextures/Green/green4.png",
+        "East": "BlockTextures/Green/green2.png"
+      }
+    ],
+    "ParticleColor": "#aeae8c",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ]
+}
