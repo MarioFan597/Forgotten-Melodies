@@ -4,6 +4,7 @@
     "Name": "server.items.KanteleRuby.name",
     "Description": "server.items.KanteleRuby.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

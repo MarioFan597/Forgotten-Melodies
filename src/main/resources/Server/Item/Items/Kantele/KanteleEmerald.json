@@ -4,6 +4,7 @@
     "Name": "server.items.KanteleEmerald.name",
     "Description": "server.items.KanteleEmerald.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

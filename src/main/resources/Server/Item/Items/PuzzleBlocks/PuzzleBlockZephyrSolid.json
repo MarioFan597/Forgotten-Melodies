@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.zephyrsolid.name"
   },
   "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockZephyrSolid.png",
   "Categories": [
     "Blocks.Deco"
   ],
