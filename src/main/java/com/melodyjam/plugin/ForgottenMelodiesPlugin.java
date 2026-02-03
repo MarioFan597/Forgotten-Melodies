@@ -1,23 +1,22 @@
 package com.melodyjam.plugin;
 
-import com.hypixel.hytale.assetstore.event.LoadedAssetsEvent;
 import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.logger.HytaleLogger;
-import com.hypixel.hytale.server.core.asset.type.blockset.config.BlockSet;
-import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
+import com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.OpenCustomUIInteraction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.melodyjam.plugin.Systems.AuraBlockInitializer;
 import com.melodyjam.plugin.Systems.AuraBlockSystem;
-import com.melodyjam.plugin.commands.KanteleCommand;
 import com.melodyjam.plugin.component.AuraBlock;
 import com.melodyjam.plugin.interaction.ForceStateInteraction;
 import com.melodyjam.plugin.interaction.ReplaceHeldItemInteraction;
 import com.melodyjam.plugin.interaction.WieldedItemConditionInteraction;
 import com.melodyjam.plugin.Systems.BreakRuleSystem;
 import com.melodyjam.plugin.Systems.PlaceRuleSystem;
+import com.melodyjam.plugin.pages.KantelePage;
+import com.melodyjam.plugin.pages.KantelePageSupplier;
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
 public class ForgottenMelodiesPlugin extends JavaPlugin {
@@ -53,8 +52,7 @@ public class ForgottenMelodiesPlugin extends JavaPlugin {
         getEntityStoreRegistry().registerSystem(new BreakRuleSystem());
         getEntityStoreRegistry().registerSystem(new PlaceRuleSystem());
 
-        // Register kantele command
-        getCommandRegistry().registerCommand(new KanteleCommand());
+        OpenCustomUIInteraction.registerCustomPageSupplier(this, KantelePage.class, "Kantele", new KantelePageSupplier());
     }
 
     @Override

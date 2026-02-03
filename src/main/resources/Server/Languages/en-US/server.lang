@@ -125,3 +125,8 @@ song.ruby.notify=You switch to the Song of Ruby.
 song.voidstone.notify=You switch to the Fugue of the Void.
 song.sapphire.notify=You switch to the Sapphire March
 song.zephyr.notify=You switch to the Sonata of Zephyr.
+
+# === Worn Kantele ===
+
+items.WornKantele.name=Worn Kantele
+items.WornKantele.description=The magic has left this instrument long ago. You can still use it to entertain company, however.
