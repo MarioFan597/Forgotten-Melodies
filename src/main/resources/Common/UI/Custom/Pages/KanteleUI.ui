@@ -67,7 +67,7 @@ $C = "../Common.ui";
 );
 
 Group {
-    Anchor: (Width: 550, Height: 450);
+    Anchor: (Width: 550, Height: 400);
     Background: #1a1a2e(0.95);
     LayoutMode: Top;
     Padding: (Full: 20);
@@ -78,7 +78,7 @@ Group {
         Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Center);
     }
 
-    Group { Anchor: (Height: 25); }
+    Group { Anchor: (Height: 10); }
 
     TextButton #HighD {
         Anchor: (Width: 750, Height: 20, Left: 15, Right: 275, Top: 0, Bottom: 5);
