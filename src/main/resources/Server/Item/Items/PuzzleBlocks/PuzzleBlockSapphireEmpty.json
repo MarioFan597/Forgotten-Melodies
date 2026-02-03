@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.puzzle.sapphireempty.name"
+    "Name": "server.items.puzzle.sapphireempty.name",
+    "Description": "server.items.puzzle.description"
   },
   "MaxStack": 100,
   "Categories": [

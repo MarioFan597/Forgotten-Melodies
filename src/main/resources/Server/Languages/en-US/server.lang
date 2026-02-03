@@ -83,7 +83,7 @@ items.puzzle.voidstoneempty.name = Empty Purple Puzzleblock
 items.puzzle.zephyrsolid.name = Full Cyan Puzzleblock
 items.puzzle.zephyrempty.name = Empty Cyan Puzzleblock
 
-items.puzzle..name = Empty Cyan Puzzleblock
+items.puzzles.description = A mystical block that responds to an Enchanted Kantele. Switches between being empty to full when it's respective melody is played.
 
 # === Machine Parts ===
 
