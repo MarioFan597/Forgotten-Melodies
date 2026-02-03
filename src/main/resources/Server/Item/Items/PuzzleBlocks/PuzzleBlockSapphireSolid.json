@@ -29,6 +29,10 @@
   },
   "PlayerAnimationsId": "Block",
   "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "BlockParticleSetId": "Stone",
     "Set": "PuzzleBlockSapphire",
     "Textures": [
       {
