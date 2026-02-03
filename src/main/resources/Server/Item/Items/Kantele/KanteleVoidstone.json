@@ -4,6 +4,7 @@
     "Name": "server.items.KanteleVoidstone.name",
     "Description": "server.items.KanteleVoidstone.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

@@ -2,7 +2,6 @@
   "TranslationProperties": {
     "Name": "server.items.puzzle.sapphiresolid.name"
   },
-  "Parent": "Rock_Ice",
   "MaxStack": 100,
   "Icon": "Icons/ItemsGenerated/PuzzleBlockSapphireSolid.png",
   "Categories": [

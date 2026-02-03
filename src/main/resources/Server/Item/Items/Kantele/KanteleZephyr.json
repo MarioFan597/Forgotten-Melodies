@@ -4,6 +4,54 @@
     "Name": "server.items.KanteleZephyr.name",
     "Description": "server.items.KanteleZephyr.description"
   },
+  "Quality": "Rare",
+  "Recipe": {
+    "TimeSeconds": 5,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Instrument"
+        ],
+        "Id": "Melody_Workbench"
+      }
+    ],
+    "RequiredMemoriesLevel": 5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Crystal_Blue",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Cyan",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Green",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Purple",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Yellow",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_White",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "KanteleTemplate",
+        "Quantity": 1
+      }
+    ]
+  },
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

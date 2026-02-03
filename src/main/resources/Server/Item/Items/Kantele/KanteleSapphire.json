@@ -4,6 +4,7 @@
     "Name": "server.items.KanteleSapphire.name",
     "Description": "server.items.KanteleSapphire.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [

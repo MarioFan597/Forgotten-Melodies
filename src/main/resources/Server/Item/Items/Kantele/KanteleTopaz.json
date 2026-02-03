@@ -4,6 +4,7 @@
     "Name": "server.items.KanteleTopaz.name",
     "Description": "server.items.KanteleTopaz.description"
   },
+  "Quality": "Rare",
   "InteractionVars": {
     "KantelePlayCharging": {
       "Interactions": [
