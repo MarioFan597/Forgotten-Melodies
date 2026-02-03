@@ -33,7 +33,12 @@ public class BreakRuleSystem extends EntityEventSystem<EntityStore, BreakBlockEv
             "Rubble_Ice",
             "Rubble_Ice_Medium",
             "Rock_Ice_Icicles",
-            "Rock_Ice_Stalactite_Large"
+            "Rock_Ice_Stalactite_Large",
+            "Plant_Bramble_Dead_Lavathorn",
+            "Plant_Crop_Mushroom_Boomshroom_Small",
+            "Plant_Crop_Mushroom_Boomshroom_Large",
+            "Rubble_Volcanic",
+            "Rubble_Volcanic_Medium"
     };
 
     public BreakRuleSystem() {
