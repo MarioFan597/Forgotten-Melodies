@@ -20,18 +20,31 @@
     ],
     "Input": [
       {
-        "Quantity": 3,
-        "ResourceTypeId": "Wood_Trunk"
+        "Quantity": 25,
+        "ItemId": "Ingredient_Crystal_Blue"
       },
       {
-        "ItemId": "Ingredient_Fibre",
-        "Quantity": 5
+        "Quantity": 25,
+        "ItemId": "Ingredient_Crystal_Red"
+      },
+      {
+        "Quantity": 25,
+        "ItemId": "Ingredient_Crystal_Green"
+      },
+      {
+        "ItemId": "WornKantele",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "KanteleEmerald"
       }
     ]
   },
   "Model": "Items/Instruments/Kantele shimo.blockymodel",
   "Texture": "Items/Instruments/texture_kantele_shimo.png",
-  "Quality": "Common",
+  "Quality": "Rare",
   "Tool": {
     "Specs": [
       {
