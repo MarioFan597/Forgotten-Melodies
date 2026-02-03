@@ -32,7 +32,9 @@
           "Parent": "KantelePlayExecute",
           "Changes": {
             "PuzzleBlockEmeraldEmpty": "PuzzleBlockEmeraldSolid",
-            "PuzzleBlockEmeraldSolid": "PuzzleBlockEmeraldEmpty"
+            "PuzzleBlockEmeraldSolid": "PuzzleBlockEmeraldEmpty",
+            "PuzzleBlockEmerald2Empty": "PuzzleBlockEmerald2Solid",
+            "PuzzleBlockEmerald2Solid": "PuzzleBlockEmerald2Empty"
           }
         }
       ]

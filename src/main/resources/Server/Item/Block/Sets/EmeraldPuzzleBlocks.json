@@ -1,6 +1,8 @@
 {
   "IncludeBlockTypes": [
     "PuzzleBlockEmeraldEmpty",
-    "PuzzleBlockEmeraldSolid"
+    "PuzzleBlockEmeraldSolid",
+    "PuzzleBlockEmerald2Empty",
+    "PuzzleBlockEmerald2Solid"
   ]
 }
