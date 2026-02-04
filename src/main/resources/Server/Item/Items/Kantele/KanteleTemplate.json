@@ -49,22 +49,6 @@
         "Quantity": 25
       },
       {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Cyan"
-      },
-      {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_White"
-      },
-      {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Purple"
-      },
-      {
-        "Quantity": 25,
-        "ItemId": "Ingredient_Crystal_Yellow"
-      },
-      {
         "ItemId": "WornKantele",
         "Quantity": 1
       }

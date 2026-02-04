@@ -22,7 +22,7 @@
     "RequiredMemoriesLevel": 5,
     "Input": [
       {
-        "ItemId": "Ingredient_Crystal_Purple",
+        "ItemId": "Ingredient_Crystal_Cyan",
         "Quantity": 5
       }
     ]

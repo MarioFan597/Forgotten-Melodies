@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.emerald2empty.name",
     "Description": "server.items.puzzle.description"
   },
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockEmerald2Empty.png",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"

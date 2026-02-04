@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.voidstoneempty.name",
     "Description": "server.items.puzzle.description"
   },
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockVoidstoneEmpty.png",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"

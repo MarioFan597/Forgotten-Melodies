@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.sapphireempty.name",
     "Description": "server.items.puzzle.description"
   },
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockSapphireEmpty.png",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"

@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.topazempty.name",
     "Description": "server.items.puzzle.description"
   },
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockTopazEmpty.png",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"

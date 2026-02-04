@@ -3,6 +3,7 @@
     "Name": "server.items.puzzle.rubyempty.name",
     "Description": "server.items.puzzle.description"
   },
+  "Icon": "Icons/ItemsGenerated/PuzzleBlockRubyEmpty.png",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"
