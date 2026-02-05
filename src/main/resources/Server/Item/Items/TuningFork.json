@@ -44,7 +44,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
+    "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITHOUT_ORB_shimo.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/tuningfork/Final_Texture_Empty.png"
@@ -67,7 +67,9 @@
                 "EntityEffectId": "EmeraldTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Zephyr": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -83,7 +85,9 @@
                 "EntityEffectId": "ZephyrTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Sapphire": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -99,7 +103,9 @@
                 "EntityEffectId": "SapphireTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Topaz": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -115,7 +121,9 @@
                 "EntityEffectId": "TopazTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Voidstone": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -131,7 +139,9 @@
                 "EntityEffectId": "VoidstoneTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Diamond": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -147,7 +157,9 @@
                 "EntityEffectId": "DiamondTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         },
         "Ruby": {
           "CustomModel": "Blocks/tuningfork/Tunning Forks_NEW_VERSION_WITH_ORB_shimo.blockymodel",
@@ -163,7 +175,9 @@
                 "EntityEffectId": "RubyTuning"
               }
             }
-          }
+          },
+          "CustomModelAnimation": "Blocks/tuningfork/Orb_Rotation.blockyanim",
+          "Looping": true
         }
       }
     },
