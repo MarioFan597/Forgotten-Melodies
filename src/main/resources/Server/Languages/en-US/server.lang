@@ -61,7 +61,7 @@ items.KanteleVoidstone.description=An ancient enchanted instrument to be played.
 items.KanteleSapphire.name=Enchanted Kantele (Sapphire March)
 items.KanteleSapphire.description=An ancient enchanted instrument to be played. Right click to play the Sapphire March and switch puzzle blocks of the same type. Left click to change song.\n\
 \n\
-<i>For those heading to the beach, a favorite past time in picking up the numerous shells that the tide drags in. If one where to place their ear up to one of these, they would hear the song of the sea. According to old wives tales, those who here this melody are compelled to throw themselves into such ocean, no mater the distance they must walk to do so.</i>
+<i>For those heading to the beach, a favorite past time is picking up the numerous shells that the tide drags in. If one where to place their ear up to one of these, they would hear the song of the sea. According to old wives tales, those who here this melody are compelled to throw themselves into such ocean, no mater the distance they must walk to do so.</i>
 
 items.KanteleZephyr.name=Enchanted Kantele (Sonata of Zephyr)
 items.KanteleZephyr.description=An ancient enchanted instrument to be played. Right click to play the Sonata of Zephyr and switch puzzle blocks of the same type. Left click to change song.\n\
@@ -86,7 +86,7 @@ items.puzzle.voidstoneempty.name = Empty Purple Puzzleblock
 items.puzzle.zephyrsolid.name = Full Cyan Puzzleblock
 items.puzzle.zephyrempty.name = Empty Cyan Puzzleblock
 
-items.puzzles.description = A mystical block that responds to an Enchanted Kantele. Switches between being empty to full when it's respective melody is played.
+items.puzzle.description = A mystical block that responds to an Enchanted Instrument. Switches between being empty to full when it's respective melody is played.
 
 # === Machine Parts ===
 
