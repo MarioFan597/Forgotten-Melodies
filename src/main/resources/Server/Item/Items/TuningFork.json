@@ -78,7 +78,7 @@
               "Texture": "Blocks/tuningfork/Final_Texture_Cyan.png"
             }
           ],
-          "InteractionHint": "Replace Crystal From Hand",
+          "InteractionHint": "server.items.tuningfork.has_crystal",
           "BlockEntity": {
             "Components": {
               "AuraBlock": {
