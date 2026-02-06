@@ -4,7 +4,7 @@
       "id": "1",
       "name": "kantele",
       "position": {"x": 2, "y": 5, "z": 1},
-      "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+      "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
       "shape": {
         "type": "box",
         "offset": {"x": 0.5, "y": 14, "z": 1},
@@ -628,11 +628,11 @@
     {
       "id": "13",
       "name": "line2",
-      "position": {"x": 0, "y": 48, "z": 1},
-      "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+      "position": {"x": 8, "y": 49, "z": 1},
+      "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
       "shape": {
         "type": "box",
-        "offset": {"x": -4.5, "y": -21.5, "z": -0.5},
+        "offset": {"x": -0.5, "y": -21.5, "z": -0.5},
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": false,
