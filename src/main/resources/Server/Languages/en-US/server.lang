@@ -110,9 +110,9 @@ items.Magic_Core.description=The heart of the resonator. A powerful device that 
 items.tuningfork.name=Elemental Resonator
 items.tuningfork.description=The resonator harnesses the latent energy of the elements to give effects.\n\
 \n\
-<i>The power of the machine has been told through stories that have echo throughout Orbis for eons. Rumor has it that the remaining pieces to build such machine can only be found in the <color is="#05c09a">Resonant Ruin</color>. A land that once flourished in melodies.</i>
-items.tuningfork.no_crystal=Press [{key}] to insert a Crystal Shard
-items.tuningfork.has_crystal=Press [{key}] to grab stored Crystal Shard
+<i>The power of the machine has been told through stories that have echo throughout Orbis for eons.</i>
+items.tuningfork.no_crystal=Press [{key}] to insert a Puzzle Block
+items.tuningfork.has_crystal=Press [{key}] to grab stored Puzzle Block
 
 # === Dungeon Element Puzzle Blocks ===
 items.Cantiflora_Solid.name=Cantiflora

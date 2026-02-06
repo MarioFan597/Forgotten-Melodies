@@ -36,7 +36,7 @@ public class ReplaceHeldItemInteraction extends SimpleInstantInteraction {
     .append(new KeyedCodec<>("ItemId", Codec.STRING), (i, s) -> i.itemId = s, i -> i.itemId)
     .documentation("The item id to put in the target's hand.")
     .addValidator(Validators.nonNull())
-    .addValidator(Item.VALIDATOR_CACHE.getValidator())
+    .addValidator(Item.VALIDATOR_CACHE.getValidator().late())
     .add()
     .appendInherited(
             new KeyedCodec<>("Entity", InteractionTarget.CODEC), (o, i) -> o.entityTarget = i, o -> o.entityTarget, (o, p) -> o.entityTarget = p.entityTarget

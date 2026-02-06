@@ -11,9 +11,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Green",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockEmerald2Solid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -26,9 +28,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Cyan",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockZephyrSolid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -41,9 +45,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Blue",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockSapphireSolid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -56,9 +62,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Yellow",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockTopazSolid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -71,9 +79,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Purple",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockVoidstoneSolid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -86,9 +96,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_Red",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockRubySolid",
+          "Quantity": 1
+        }
       }
     },
     {
@@ -101,9 +113,11 @@
         }
       ],
       "Next": {
-        "Type": "AddItem",
-        "ItemId": "Ingredient_Crystal_White",
-        "Quantity": 1
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "PuzzleBlockDiamondSolid",
+          "Quantity": 1
+        }
       }
     }
   ]

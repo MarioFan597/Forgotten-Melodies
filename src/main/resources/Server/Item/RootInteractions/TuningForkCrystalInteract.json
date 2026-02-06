@@ -27,7 +27,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Blue",
+      "ItemId": "PuzzleBlockSapphireSolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -58,7 +58,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Cyan",
+      "ItemId": "PuzzleBlockZephyrSolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -89,7 +89,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Green",
+      "ItemId": "PuzzleBlockEmerald2Solid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -120,7 +120,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Purple",
+      "ItemId": "PuzzleBlockVoidstoneSolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -151,7 +151,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Red",
+      "ItemId": "PuzzleBlockRubySolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -182,7 +182,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_White",
+      "ItemId": "PuzzleBlockDiamondSolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {
@@ -213,7 +213,7 @@
     },
     {
       "Type": "WieldedItemCondition",
-      "ItemId": "Ingredient_Crystal_Yellow",
+      "ItemId": "PuzzleBlockTopazSolid",
       "Next": {
         "Type": "BlockCondition",
         "Failed": {

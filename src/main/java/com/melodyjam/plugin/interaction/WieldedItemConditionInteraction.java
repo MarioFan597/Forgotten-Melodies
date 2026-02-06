@@ -31,7 +31,7 @@ public class WieldedItemConditionInteraction extends SimpleInstantInteraction {
     ).documentation("Interaction that is successful if an entity has a specific item in the active hotbar slot")
     .append(new KeyedCodec<>("ItemId", Codec.STRING), (i, s) -> i.itemId = s, i -> i.itemId)
     .documentation("The id of the item to check for. If null, checks for an empty hand.")
-    .addValidator(new NullOr<>(Item.VALIDATOR_CACHE.getValidator()))
+    .addValidator(new NullOr<>(Item.VALIDATOR_CACHE.getValidator().late()))
     .add()
     .appendInherited(
         new KeyedCodec<>("Entity", InteractionTarget.CODEC), (o, i) -> o.entityTarget = i, o -> o.entityTarget, (o, p) -> o.entityTarget = p.entityTarget
